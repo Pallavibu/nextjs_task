@@ -9,7 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       container : {
-        yellow : #E1C300;
+        center: true,
+        padding: "15px" 
+      },
+      colors:{
+        yellow : "#E1C300",
+        brown : "#212122"
+        
       }
     },
   },
