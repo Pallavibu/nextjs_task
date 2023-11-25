@@ -45,10 +45,10 @@ const HeaderTop = () => {
                 <option value="fest">fest</option>
               </select>
             </div>
-            <div className="text-white">
+            <div className="text-white hover:text-yellow">
               <h3>premium</h3>
             </div>
-            <div className="text-white">
+            <div className="text-white hover:text-yellow">
               <h3>gift cards</h3>
             </div>
           </div>
@@ -58,7 +58,7 @@ const HeaderTop = () => {
             </h1>
           </div>
           <div className="hidden lg:flex gap-5 px-3 text-white">
-            <div>
+            <div className="hover:text-yellow">
               <p>become an affiliate</p>
             </div>
             <div className="header_top_icon_wrapper ">
@@ -78,7 +78,7 @@ const HeaderTop = () => {
             </div>
             <div className="header_top_icon_wrapper relative">
               <RiShoppingCart2Fill />
-              <div className="bg-white rounded-full absolute top-0.5 right-0.5 w-3 h-3 flex justify-center items-center text-black">
+              <div className="bg-white rounded-full absolute top-[-0.7] right-0.7 w-3 h-3 flex justify-center items-center text-black">
                 o
               </div>
             </div>

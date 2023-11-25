@@ -55,11 +55,13 @@ const Hero = () => {
             <Slides
               key={item.id}
               img={item.img}
-              title={item.title}
+              title="heritage tees"
               mainTitle={item.mainTitle}
+              buttontext = "Shop Now"
             />
           ))} 
         </Slider>
+      
       </div>
     </div>
   );
