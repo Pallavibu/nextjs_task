@@ -23,7 +23,7 @@ const HeaderTop = () => {
       <div className="container">
         <div className="flex gap-10 justify-between">
           <div className="flex gap-5">
-            <div className="bg-brown">
+            <div className="bg-brown font-bold">
               <select name="brands" id="brands">
                 <option value="brands">brands</option>
                 <option value="all">allbrands</option>
@@ -34,7 +34,7 @@ const HeaderTop = () => {
                 <option value="fest">fest</option>
               </select>
             </div>
-            <div className="gap-1 bg-brown">
+            <div className="gap-1 bg-brown font-bold">
               <select name="shop" id="brands">
                 <option value="shop">shop</option>
                 <option value="all">allbrands</option>
@@ -45,20 +45,20 @@ const HeaderTop = () => {
                 <option value="fest">fest</option>
               </select>
             </div>
-            <div className="text-white hover:text-yellow">
+            <div className="text-white hover:text-yellow font-bold">
               <h3>premium</h3>
             </div>
-            <div className="text-white hover:text-yellow">
+            <div className="text-white hover:text-yellow font-bold">
               <h3>gift cards</h3>
             </div>
           </div>
           <div className="text-yellow drop-shadow-2xl">
-            <h1 className="font-extrabold text-4xl">
+            <h1 className="font-extrabold text-4xl font">
               <b>brava</b>
             </h1>
           </div>
           <div className="hidden lg:flex gap-5 px-3 text-white">
-            <div className="hover:text-yellow">
+            <div className="hover:text-yellow font-bold">
               <p>become an affiliate</p>
             </div>
             <div className="header_top_icon_wrapper ">

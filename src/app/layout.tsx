@@ -26,12 +26,8 @@ export default function RootLayout({
       <body className={inter.className}>
         <HeaderTop />
         <HeaderMain />
-     
-          {children}
-         
-       
-          <MovingBox />
-       
+        {children}
+        <MovingBox />
       </body>
     </html>
   );

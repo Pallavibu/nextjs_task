@@ -1,12 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-
+const nextConfig = {};
 
 module.exports = {
   experimental: {
     reactServerComponents: true,
-    // other experimental options...
   },
-  // other Next.js configuration...
 };

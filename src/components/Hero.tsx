@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React from "react";
 import { IoSettings } from "react-icons/io5";
@@ -57,11 +57,10 @@ const Hero = () => {
               img={item.img}
               title="heritage tees"
               mainTitle={item.mainTitle}
-              buttontext = "Shop Now"
+              buttontext="Shop Now"
             />
-          ))} 
+          ))}
         </Slider>
-      
       </div>
     </div>
   );

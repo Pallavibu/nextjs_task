@@ -2,10 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
-  .header_top_icon_wrapper{
-    @apply hover:text-yellow
+@layer components {
+  .header_top_icon_wrapper {
+    @apply hover:text-yellow;
   }
-
-  
 }
