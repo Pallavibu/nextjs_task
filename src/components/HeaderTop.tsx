@@ -19,11 +19,11 @@ const HeaderTop = () => {
     "vudu brigada",
   ];
   return (
-    <div className="border-b  bg-brown py-8 flex fixed top-14 left-0 right-0 z-50">
+    <div className="border-b  bg-brown py-6 flex fixed top-14 left-0 right-0 z-50">
       <div className="container">
         <div className="flex gap-10 justify-between">
           <div className="flex gap-5">
-            <div>
+            <div className="bg-brown">
               <select name="brands" id="brands">
                 <option value="brands">brands</option>
                 <option value="all">allbrands</option>
@@ -34,7 +34,7 @@ const HeaderTop = () => {
                 <option value="fest">fest</option>
               </select>
             </div>
-            <div className="gap-1">
+            <div className="gap-1 bg-brown">
               <select name="shop" id="brands">
                 <option value="shop">shop</option>
                 <option value="all">allbrands</option>
@@ -53,7 +53,7 @@ const HeaderTop = () => {
             </div>
           </div>
           <div className="text-yellow drop-shadow-2xl">
-            <h1>
+            <h1 className="font-extrabold text-4xl">
               <b>brava</b>
             </h1>
           </div>
