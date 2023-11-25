@@ -7,6 +7,7 @@ import HeaderMain from "@/components/HeaderMain";
 
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
+import MovingBox from "@/components/MovingBox";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,6 +28,8 @@ export default function RootLayout({
         <HeaderTop />
 
         {children}
+
+        <MovingBox/>
       </body>
     </html>
   );
