@@ -49,7 +49,7 @@ const Hero = () => {
   ];
   return (
     <div>
-      <div className="container pt-6 lg:pt-0">
+      <div className="container  ">
         <Slider {...settings}>
           {slideData.map((item) => (
             <Slides
