@@ -6,56 +6,67 @@ const MovingBox = () => {
   return (
     <div className={styles.box}>
       <div className="flex">
-        <div className="flex bg-gray-800 w-52 h-24 m-10 gap-2 ">
-          <div className="flex justify-center w-20">
-            <img src="/logo1.png" alt="Description of the photo" />
+        <div className="flex bg-gray-800 m-10 gap-1 border-l w-64 h-36 p-4 rounded-tl-3xl rounded-bl-3xl">
+          <div className="flex justify-center items-center w-20">
+            <img src="/logo1.png" alt="Description of the photo" className="20"/>
+          </div>
+          <div className="flex-col m-2 justify-center items-center ">
+            <h2 className="text-white">bitfins</h2>
+            <Link href="./shop" legacyBehavior>
+              <a className="text-white">Shop Now</a>
+            </Link> 
+          </div>
+        </div>
+        <div className="flex bg-gray-800 m-10 gap-1 border-l w-64 h-36 p-4 rounded-tl-3xl rounded-bl-3xl ">
+          <div className="flex justify-center items-center w-20">
+            <img src="/logo2.png" alt="Description of the photo" className="h-20"/>
           </div>
           <div className="flex-col m-2 justify-center items-center">
-            <h2 className="text-white">Pallavi</h2>
+            <h2 className="text-white">$hosky</h2>
             <Link href="./shop" legacyBehavior>
               <a className="text-white">Shop Now</a>
             </Link>
           </div>
         </div>
-        <div className="flex bg-gray-800 w-52 h-24 m-10 gap-2 ">
-          <div className="flex justify-center w-20">
-            <img src="/logo2.png" alt="Description of the photo" />
+        <div className="flex bg-gray-800 m-10 gap-1 border-l w-64 h-36 p-4 rounded-tl-3xl rounded-bl-3xl ">
+          <div className="flex justify-center items-center w-20">
+            <img src="/logo3.png" alt="Description of the photo" className="h-20" />
           </div>
           <div className="flex-col m-2 justify-center items-center">
-            <h2 className="text-white">Pallavi</h2>
+            <h2 className="text-white">vudu brigada</h2>
             <Link href="./shop" legacyBehavior>
               <a className="text-white">Shop Now</a>
             </Link>
           </div>
         </div>
-        <div className="flex bg-gray-800 w-52 h-24 m-10 gap-2 ">
-          <div className="flex justify-center w-20">
-            <img src="/logo3.png" alt="Description of the photo" />
+        <div className="flex bg-gray-800 m-10 gap-1 border-l w-64 h-36 p-4 rounded-tl-3xl rounded-bl-3xl ">
+          <div className="flex justify-center items-center w-20">
+            <img src="/logo4.png" alt="Description of the photo" className="h-20" />
           </div>
           <div className="flex-col m-2 justify-center items-center">
-            <h2 className="text-white">Pallavi</h2>
+            <h2 className="text-white">future fest</h2>
             <Link href="./shop" legacyBehavior>
               <a className="text-white">Shop Now</a>
             </Link>
           </div>
         </div>
-        <div className="flex bg-gray-800 w-52 h-24 m-10 gap-2 ">
-          <div className="flex justify-center w-20">
-            <img src="/logo4.png" alt="Description of the photo" />
+        <div className="flex bg-gray-800 m-10 gap-1 border-l w-64  h-36 p-4 rounded-tl-3xl rounded-bl-3xl">
+          <div className="flex justify-center items-center w-20">
+            <img src="/logo5.png" alt="Description of the photo" className="h-20"/>
           </div>
           <div className="flex-col m-2 justify-center items-center">
-            <h2 className="text-white">Pallavi</h2>
+            <h2 className="text-white">pendulum</h2>
             <Link href="./shop" legacyBehavior>
               <a className="text-white">Shop Now</a>
             </Link>
           </div>
         </div>
-        <div className="flex bg-gray-800 w-52 h-24 m-10 gap-2 ">
-          <div className="flex justify-center w-20">
-            <img src="/logo5.png" alt="Description of the photo" />
+        <div className="flex bg-gray-800 m-10 gap-1 border-l w-64 h-36 p-4 rounded-tl-3xl rounded-bl-3xl">
+          <div className="flex justify-center items-center w-20">
+            <img src="/logo6.png" alt="Description of the photo" className="h-20" />
           </div>
           <div className="flex-col m-2 justify-center items-center">
-            <h2 className="text-white">Pallavi</h2>
+            <h2 className="text-white">danketsu</h2>
             <Link href="./shop" legacyBehavior>
               <a className="text-white">Shop Now</a>
             </Link>

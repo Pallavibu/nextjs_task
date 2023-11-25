@@ -4,7 +4,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import HeaderTop from "@/components/HeaderTop";
 import HeaderMain from "@/components/HeaderMain";
-
+import Hero from "@/components/Hero";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import MovingBox from "@/components/MovingBox";
@@ -25,11 +25,13 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <HeaderTop />
-        <div className="container mx-auto mt-16">
+        <HeaderMain />
+     
           {children}
-          <HeaderMain />
+         
+       
           <MovingBox />
-        </div>
+       
       </body>
     </html>
   );

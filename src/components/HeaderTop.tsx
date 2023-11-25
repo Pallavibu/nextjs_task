@@ -1,6 +1,4 @@
 import React from "react";
-import { useState, useEffect } from "react";
-import { useRouter } from 'next/router';
 import { LuTwitter } from "react-icons/lu";
 import { FaTiktok } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -20,38 +18,8 @@ const HeaderTop = () => {
     "pendulum",
     "vudu brigada",
   ];
-
-  const HeaderTop = () => {
-    const router = useRouter();
-    const [isFixed, setIsFixed] = useState(false);
-  
-    const handleScroll = () => {
-      const offset = window.scrollY;
-      setIsFixed(offset > 0);
-    };
-  
-    useEffect(() => {
-      window.addEventListener("scroll", handleScroll);
-      return () => {
-        window.removeEventListener("scroll", handleScroll);
-      };
-    }, []);
-  
-    useEffect(() => {
-      const handleRouteChange = () => {
-        // Reset scroll position when navigating between pages
-        setIsFixed(false);
-      };
-  
-      router.events.on("routeChangeStart", handleRouteChange);
-  
-      return () => {
-        router.events.off("routeChangeStart", handleRouteChange);
-      };
-    }, [router.events]);
-  }
   return (
-    <div className="border-b  bg-brown py-8  ${isFixed ? 'fixed top-0 left-0 right-0 z-50' : ''">
+    <div className="border-b  bg-brown py-8 flex fixed top-14 left-0 right-0 z-50">
       <div className="container">
         <div className="flex gap-10 justify-between">
           <div className="flex gap-5">
@@ -59,7 +27,7 @@ const HeaderTop = () => {
               <select name="brands" id="brands">
                 <option value="brands">brands</option>
                 <option value="all">allbrands</option>
-                <option value="hosky">$hosky</option>
+                <option value="hosky">$hosky</option>x
                 <option value="bitfins">bitfins</option>
                 <option value="pendulum">pendulum</option>
                 <option value="vudu">vudu</option>
