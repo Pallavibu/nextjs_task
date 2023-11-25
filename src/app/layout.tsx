@@ -5,8 +5,8 @@ import "./globals.css";
 import HeaderTop from "@/components/HeaderTop";
 import HeaderMain from "@/components/HeaderMain";
 
-import "slick-carousel/slick/slick.css"
-import "slick-carousel/slick/slick-theme.css"
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import MovingBox from "@/components/MovingBox";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -24,12 +24,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <HeaderMain />
         <HeaderTop />
-
-        {children}
-
-        <MovingBox/>
+        <div className="container mx-auto mt-16">
+          {children}
+          <HeaderMain />
+          <MovingBox />
+        </div>
       </body>
     </html>
   );
