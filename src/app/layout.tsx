@@ -1,11 +1,11 @@
-"use Client" 
+"use Client";
 import type { Metadata } from "next";
-
 import { Inter } from "next/font/google";
 import "./globals.css";
 import HeaderTop from "@/components/HeaderTop";
-
 import HeaderMain from "@/components/HeaderMain";
+
+import
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,9 +22,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-      <HeaderMain />
+        <HeaderMain />
         <HeaderTop />
-        
+
         {children}
       </body>
     </html>

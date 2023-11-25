@@ -36,7 +36,7 @@ const HeaderTop = () => {
               </select>
             </div>
             <div className="gap-1">
-            <select name="shop" id="brands">
+              <select name="shop" id="brands">
                 <option value="shop">shop</option>
                 <option value="all">allbrands</option>
                 <option value="hosky">$hosky</option>
@@ -46,10 +46,10 @@ const HeaderTop = () => {
                 <option value="fest">fest</option>
               </select>
             </div>
-            <div>
+            <div className="text-white">
               <h3>premium</h3>
             </div>
-            <div>
+            <div className="text-white">
               <h3>gift cards</h3>
             </div>
           </div>
@@ -58,7 +58,7 @@ const HeaderTop = () => {
               <b>brava</b>
             </h1>
           </div>
-          <div className="hidden lg:flex gap-5 px-3">
+          <div className="hidden lg:flex gap-5 px-3 text-white">
             <div>
               <p>become an affiliate</p>
             </div>
@@ -77,8 +77,11 @@ const HeaderTop = () => {
             <div className="header_top_icon_wrapper">
               <FaSearch />
             </div>
-            <div className="header_top_icon_wrapper ">
+            <div className="header_top_icon_wrapper relative">
               <RiShoppingCart2Fill />
+              <div className="bg-white rounded-full absolute top-0.5 right-0.5 w-3 h-3 flex justify-center items-center text-black">
+                o
+              </div>
             </div>
           </div>
         </div>
