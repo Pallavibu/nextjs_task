@@ -20,7 +20,7 @@ const HeaderTop = () => {
     "vudu brigada",
   ];
   return (
-    <div className="border-b  bg-brown py-8 sm:hidden md:block ">
+    <div className="border-b  bg-brown py-8 ">
       <div className="container">
         <div className="flex gap-10 justify-between">
           <div className="flex gap-5">
